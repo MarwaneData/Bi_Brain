@@ -19,12 +19,6 @@ import re
 import textwrap
 import pandas as pd
 
-
-os.environ["OPENAI_API_KEY_A"] = "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"
-# os.environ["OPENAI_API_KEY_B"] = "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"
-os.environ["OPENAI_API_KEY"] = "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"
-
-
 text = "Please perform information extraction on the following text. Return the results as a JSON object with keys for 'Full_Name', 'Email', 'Total_years_of_Experience', 'Name_Company_Experience', 'Last_level_of_Education', 'phone_number', 'location', 'skills'(skills separated by commas), and 'Description' of the person. Ensure key names match the information types provided."
 
 
